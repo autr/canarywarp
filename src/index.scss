@@ -1,0 +1,48 @@
+
+body {
+	font-family: "Arial", sans-serif;
+}
+
+$btn: 16px;
+
+.audioButton {
+  display: inline-block;
+  width: $btn;
+  height: $btn;
+  border-radius: $btn;
+  // background-color: blue;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+  &:before {
+    position: absolute;
+    display: block;  
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &.playing:before {
+    width: $btn*0.1;
+    height: $btn*0.5;
+    border-left: ($btn*0.2) solid white;
+    border-right: ($btn*0.2) solid white;
+  }
+  &.paused:before {
+    $tri : $btn * 0.5;
+    width: 0; 
+    height: 0; 
+    border-top: $tri solid transparent;
+    border-left: $tri solid white;
+    border-bottom: $tri solid transparent;
+    transform: translate(-40%, -50%) scale(1, 0.6);
+  }
+  &.loading:before {
+    $cir : $btn * 0.6;
+    width:  $cir; 
+    height: $cir; 
+    border-radius: $cir;
+    border: $btn * 0.2 dashed white;
+  }
+}
