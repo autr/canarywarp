@@ -152,7 +152,7 @@ class CanaryWarp extends Component {
         <div className={styles.background} id={'background'}>
 
 
-          <img className={styles.cover} src={process.env.PUBLIC_URL + 'media/bg.jpg'} />
+          <img className={styles.cover} src={process.env.PUBLIC_URL + '/media/bg.jpg'} />
           {<Player 
             ref={this.Player}
             url={'https://player.vimeo.com/video/300324471'}
@@ -176,13 +176,13 @@ class CanaryWarp extends Component {
                 left: '-30px',
                 display: 'none'
               }} 
-              src={process.env.PUBLIC_URL + 'media/logo_vertical.svg'} 
+              src={process.env.PUBLIC_URL + '/media/logo_vertical.svg'} 
             />}
           {<h1><em>CANARYWARP ®</em></h1>}
           <div className={styles.text}>
             <p>
               <a href={'https://upitup.com'} target={'_blank'}>
-                {<img width={220} src={process.env.PUBLIC_URL + 'media/logo_white.svg'} />}
+                {<img width={220} src={process.env.PUBLIC_URL + '/media/logo_white.svg'} />}
               </a>
             </p>
           </div>
@@ -216,32 +216,32 @@ class CanaryWarp extends Component {
             <a 
               onClick={ (e) => this.setOverlay(e)}
               className={styles.eyeLink} 
-              href={process.env.PUBLIC_URL + 'media/photo01.jpg'}>
+              href={process.env.PUBLIC_URL + '/media/photo01.jpg'}>
               <span className={styles.prevImg}>
-                <img src={process.env.PUBLIC_URL + 'media/photo01.jpg'} />
+                <img src={process.env.PUBLIC_URL + '/media/photo01.jpg'} />
               </span>
               <span className={styles.eyeImg}>
-              <img src={process.env.PUBLIC_URL + 'media/eye.svg'} /></span>
+              <img src={process.env.PUBLIC_URL + '/media/eye.svg'} /></span>
             </a>
             <a 
               onClick={ (e) => this.setOverlay(e)}
               className={styles.eyeLink} 
-              href={process.env.PUBLIC_URL + 'media/photo02.jpg'}>
+              href={process.env.PUBLIC_URL + '/media/photo02.jpg'}>
               <span className={styles.prevImg}>
-                <img src={process.env.PUBLIC_URL + 'media/photo02.jpg'} />
+                <img src={process.env.PUBLIC_URL + '/media/photo02.jpg'} />
               </span>
               <span className={styles.eyeImg}>
-              <img src={process.env.PUBLIC_URL + 'media/eye.svg'} /></span>
+              <img src={process.env.PUBLIC_URL + '/media/eye.svg'} /></span>
             </a>
             <a 
               onClick={ (e) => this.setOverlay(e)}
               className={styles.eyeLink} 
-              href={process.env.PUBLIC_URL + 'media/photo03.jpg'}>
+              href={process.env.PUBLIC_URL + '/media/photo03.jpg'}>
               <span className={styles.prevImg}>
-                <img src={process.env.PUBLIC_URL + 'media/photo03.jpg'} />
+                <img src={process.env.PUBLIC_URL + '/media/photo03.jpg'} />
               </span>
               <span className={styles.eyeImg}>
-                <img src={process.env.PUBLIC_URL + 'media/eye.svg'} />
+                <img src={process.env.PUBLIC_URL + '/media/eye.svg'} />
               </span>
             </a>
 
@@ -261,7 +261,7 @@ class CanaryWarp extends Component {
                   </select> 
                 </div>
               </div>
-                  {/*<img width={180} style={{marginLeft: '20px', display: 'block'}} src={process.env.PUBLIC_URL + 'media/logo_light.svg'} />*/}
+                  {/*<img width={180} style={{marginLeft: '20px', display: 'block'}} src={process.env.PUBLIC_URL + '/media/logo_light.svg'} />*/}
               <div className={styles.submitWrapper}>
                 <input type="hidden" name="currency_code" value="GBP" / >
                 <input 
@@ -288,7 +288,7 @@ class CanaryWarp extends Component {
                   target="_blank"
                   className={styles.submit}
                   style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}media/lines.png)`
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/media/lines.png)`
                   }}>Download</a>
             
           </div>
@@ -296,14 +296,14 @@ class CanaryWarp extends Component {
 
          <div className={styles.supporters}>
             <a href={'https://upitup.com'} target={'_blank'} className={styles.text}>
-              <img width={'11.5%'} src={process.env.PUBLIC_URL + 'media/svg01.svg'} />
-              <img width={'15.3%'} src={process.env.PUBLIC_URL + 'media/svg02.svg'} />
-              <img width={'20%'} src={process.env.PUBLIC_URL + 'media/svg03.svg'} />
-              <img width={'25%'} src={process.env.PUBLIC_URL + 'media/svg04.svg'} />
-              <img width={'16%'} src={process.env.PUBLIC_URL + 'media/svg05.svg'} />
-              <img width={'15%'} src={process.env.PUBLIC_URL + 'media/svg06.svg'} />
-              <img width={'30%'} src={process.env.PUBLIC_URL + 'media/svg07.svg'} />
-              <img width={'10%'} src={process.env.PUBLIC_URL + 'media/svg08.svg'} />
+              <img width={'11.5%'} src={process.env.PUBLIC_URL + '/media/svg01.svg'} />
+              <img width={'15.3%'} src={process.env.PUBLIC_URL + '/media/svg02.svg'} />
+              <img width={'20%'} src={process.env.PUBLIC_URL + '/media/svg03.svg'} />
+              <img width={'25%'} src={process.env.PUBLIC_URL + '/media/svg04.svg'} />
+              <img width={'16%'} src={process.env.PUBLIC_URL + '/media/svg05.svg'} />
+              <img width={'15%'} src={process.env.PUBLIC_URL + '/media/svg06.svg'} />
+              <img width={'30%'} src={process.env.PUBLIC_URL + '/media/svg07.svg'} />
+              <img width={'10%'} src={process.env.PUBLIC_URL + '/media/svg08.svg'} />
             </a>
           </div>
 

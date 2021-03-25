@@ -1,27 +1,27 @@
 export default {
 	playlist: [
       {
-        path: "media/FTSE100.mp3",
+        path: "/media/FTSE100.mp3",
         title: "Platinum Bond" 
       },
       {
-        path: "media/FTSE200.mp3",
+        path: "/media/FTSE200.mp3",
         title: "Marylebone"
       },
       {
-        path: "media/FTSE300.mp3",
+        path: "/media/FTSE300.mp3",
         title: "Battle Bus"
       },
       {
-        path: "media/FTSE400.mp3",
+        path: "/media/FTSE400.mp3",
         title: "Collateralised Debt Obligation"
       },
       {
-        path: "media/FTSE500.mp3",
+        path: "/media/FTSE500.mp3",
         title: "Mudchute"
       },
       {
-        path: "media/FTSE600.mp3",
+        path: "/media/FTSE600.mp3",
         title: "Pass To Expo"
       }
     ],
