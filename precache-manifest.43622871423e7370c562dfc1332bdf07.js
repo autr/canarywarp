@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1bc390e71bda9369328e",
+    "revision": "f1dfd8581973eb14adc0",
     "url": "/canarywarp/static/css/main.61ce593c.chunk.css"
   },
   {
-    "revision": "1bc390e71bda9369328e",
-    "url": "/canarywarp/static/js/main.acf31ddc.chunk.js"
+    "revision": "f1dfd8581973eb14adc0",
+    "url": "/canarywarp/static/js/main.33f8cbb9.chunk.js"
   },
   {
     "revision": "3578be7ccf047f7eca40",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/canarywarp/static/js/2.dad1a328.chunk.js"
   },
   {
-    "revision": "d12e7bb723bc967a5c02ea3de86ae4d6",
+    "revision": "1b7fa7364b183a77ec6cc13e0967d7aa",
     "url": "/canarywarp/index.html"
   }
 ];
