@@ -206,12 +206,12 @@ class CanaryWarp extends Component {
           </div>
 
           
-          <h4>UPUSB01</h4>
+          <h4 style={{marginTop: 0}}>UPUSB01</h4>
           <div className={styles.text}>
             <p><em>{Data.record}</em></p>
             
           </div>
-          <div className={styles.text}>
+          <div className={styles.text} style={{paddingBottom: 0}}>
             
             <a 
               onClick={ (e) => this.setOverlay(e)}
@@ -284,12 +284,23 @@ class CanaryWarp extends Component {
           <h4>UPFREE76</h4>
           <div className={styles.text}>
             <a 
-                  href="https://canarywarp.bandcamp.com"
+                  href="https://www.upitup.com/releases/upfree76"
                   target="_blank"
                   className={styles.submit}
                   style={{
                     backgroundImage: `url(${process.env.PUBLIC_URL}/media/lines.png)`
                   }}>Download</a>
+             <br />
+            <a 
+                  style={{marginTop: 10, width: '104px'}}
+                  href="https://canarywarp.bandcamp.com"
+                  target="_blank"
+                  className={styles.submit}>Bandcamp</a>
+            <a 
+                  style={{marginTop: 10, width: '104px', marginLeft: 10}}
+                  href="https://vimeo.com/536401268"
+                  target="_blank"
+                  className={styles.submit}>Video</a>
             
           </div>
 
