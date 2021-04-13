@@ -32,7 +32,7 @@ export default {
     description: "Limited edition executive-grade Aluminium USB Business Card with embossed Hi-GSM upholstered Presentation Case (50 copies).",
     extra: "Includes 40 minute video",
     usb: 'UPUSB01',
-    free: 'UPFREE75',
+    free: 'UPFREE76',
     buy: "Sold out",
     username: "cw-promo",
     password: "ftse100",

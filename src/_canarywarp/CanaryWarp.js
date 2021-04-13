@@ -281,7 +281,7 @@ class CanaryWarp extends Component {
 
 
           
-          <h4>UPFREE75</h4>
+          <h4>UPFREE76</h4>
           <div className={styles.text}>
             <a 
                   href="https://canarywarp.bandcamp.com"
