@@ -267,6 +267,9 @@ $eyeh: 40px;
 .credits {
   padding: 1em 0em;
   font-style: italic;
+  a {
+    border-bottom: 1px solid white;
+  }
 }
 
 .eyeLink {

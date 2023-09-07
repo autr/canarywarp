@@ -1,13 +1,13 @@
 {
-  "main.css": "/canarywarp/static/css/main.1d465181.chunk.css",
-  "main.js": "/canarywarp/static/js/main.7728426d.chunk.js",
-  "main.js.map": "/canarywarp/static/js/main.7728426d.chunk.js.map",
+  "main.css": "/canarywarp/static/css/main.7c12ead6.chunk.css",
+  "main.js": "/canarywarp/static/js/main.f2eb126f.chunk.js",
+  "main.js.map": "/canarywarp/static/js/main.f2eb126f.chunk.js.map",
   "runtime~main.js": "/canarywarp/static/js/runtime~main.2b16a8ad.js",
   "runtime~main.js.map": "/canarywarp/static/js/runtime~main.2b16a8ad.js.map",
   "static/js/2.7e78177b.chunk.js": "/canarywarp/static/js/2.7e78177b.chunk.js",
   "static/js/2.7e78177b.chunk.js.map": "/canarywarp/static/js/2.7e78177b.chunk.js.map",
   "index.html": "/canarywarp/index.html",
-  "precache-manifest.494af11eb143119c53b18df65a7bca84.js": "/canarywarp/precache-manifest.494af11eb143119c53b18df65a7bca84.js",
+  "precache-manifest.408d6415074ac7f421e2f3f946dcc224.js": "/canarywarp/precache-manifest.408d6415074ac7f421e2f3f946dcc224.js",
   "service-worker.js": "/canarywarp/service-worker.js",
-  "static/css/main.1d465181.chunk.css.map": "/canarywarp/static/css/main.1d465181.chunk.css.map"
+  "static/css/main.7c12ead6.chunk.css.map": "/canarywarp/static/css/main.7c12ead6.chunk.css.map"
 }

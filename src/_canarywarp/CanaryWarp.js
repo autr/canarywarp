@@ -277,7 +277,10 @@ class CanaryWarp extends Component {
                   Canary Warp - Mudchute
             </a>
             <div className={styles.credits}>
-              Released 2021<br />Upitup Records<br />Canary Warp ®</div>
+              Created by <a href="https://autr.tv" target="_blank">Autr</a><br />
+              Mastered by <a href="https://datassette.net" target="_blank">Datassette</a><br />
+              Released 2021 <a href="https://upitup.com" target="_blank">Upitup Records</a><br />
+            </div>
           </div>
 
 
