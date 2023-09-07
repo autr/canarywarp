@@ -8,6 +8,7 @@ import classNames from 'classnames';
 import Link from "./../__Atoms/Link";
 import Vimeo from 'react-vimeo'
 import Data from './Data'
+import Icon from '../__Atoms/Icon';
 
 class CanaryWarp extends Component {
   constructor(props) {
@@ -180,13 +181,6 @@ class CanaryWarp extends Component {
             />}
           {<h1><em>CANARYWARP ®</em></h1>}
           <div className={styles.text}>
-            <p>
-              <a href={'https://upitup.com'} target={'_blank'}>
-                {<img width={220} src={process.env.PUBLIC_URL + '/media/logo_white.svg'} />}
-              </a>
-            </p>
-          </div>
-          <div className={styles.text}>
             <Playlist 
               onPlay={this.handlePlaylistPlay}
               playlist={Data.playlist}
@@ -194,14 +188,14 @@ class CanaryWarp extends Component {
                />
             <p>
               <span className={styles.plus}>+</span>
-              <span className={styles.plus}>
+              <span>
                 When Nothing Is Left 
                 <span className={styles.iconText}>BONUS</span> 
               </span>
             </p>
             <p className={styles.playlistLink}>
               <span className={styles.plus}>+</span>
-              <span className={styles.plus}>Ultrafayre <span className={styles.iconText}>BONUS</span> </span>
+              <span>Ultrafayre <span className={styles.iconText}>BONUS</span> </span>
             </p>
           </div>
 
@@ -211,12 +205,13 @@ class CanaryWarp extends Component {
             <p><em>{Data.record}</em></p>
             
           </div>
-          <div className={styles.text} style={{paddingBottom: 0}}>
-            
+          <div className={styles.images} style={{paddingBottom: 0}}>
+            <strong>Images:</strong>
             <a 
               onClick={ (e) => this.setOverlay(e)}
               className={styles.eyeLink} 
               href={process.env.PUBLIC_URL + '/media/photo01.jpg'}>
+              A
               <span className={styles.prevImg}>
                 <img src={process.env.PUBLIC_URL + '/media/photo01.jpg'} />
               </span>
@@ -227,6 +222,7 @@ class CanaryWarp extends Component {
               onClick={ (e) => this.setOverlay(e)}
               className={styles.eyeLink} 
               href={process.env.PUBLIC_URL + '/media/photo02.jpg'}>
+              B
               <span className={styles.prevImg}>
                 <img src={process.env.PUBLIC_URL + '/media/photo02.jpg'} />
               </span>
@@ -237,6 +233,7 @@ class CanaryWarp extends Component {
               onClick={ (e) => this.setOverlay(e)}
               className={styles.eyeLink} 
               href={process.env.PUBLIC_URL + '/media/photo03.jpg'}>
+              C
               <span className={styles.prevImg}>
                 <img src={process.env.PUBLIC_URL + '/media/photo03.jpg'} />
               </span>
@@ -247,61 +244,40 @@ class CanaryWarp extends Component {
 
 
 
-
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="DGCAH4P86SM66" / >
-              <input type="hidden" name="on0" value="Shipping" />
-              <div className={styles.marginTop}>
-                <div className={styles.selectDisabled} >
-                  <select name="os0" disabled="disabled">
-                    <option value="UK">£12 + UK Shipping (3.00)</option>
-                    <option value="EU">£12 + EU Shipping (4.00)</option>
-                    <option value="OVERSEAS">£12 + International Shipping (5.00)</option>
-                  </select> 
-                </div>
-              </div>
-                  {/*<img width={180} style={{marginLeft: '20px', display: 'block'}} src={process.env.PUBLIC_URL + '/media/logo_light.svg'} />*/}
-              <div className={styles.submitWrapper}>
-                <input type="hidden" name="currency_code" value="GBP" / >
-                <input 
-                  disabled="disabled"
-                  className={styles.submit}  
-                  type="submit" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" 
-                  
-                  name="submit" 
-                  value={Data.buy} />
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
-
-
-              </div>
-
-            </form>
           </div>
+{/*
 
+          <div className={styles.text}>
+            <p>
+              <a href={'https://upitup.com'} target={'_blank'}>
+                {<img width={220} src={process.env.PUBLIC_URL + '/media/logo_white.svg'} />}
+              </a>
+            </p>
+          </div>*/}
 
-          
-          <h4>UPFREE76</h4>
+          <h4 style={{marginTop: 0}}>UPFREE76</h4>
           <div className={styles.text}>
             <a 
                   href="https://www.upitup.com/releases/upfree76"
                   target="_blank"
                   className={styles.submit}
                   style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}/media/lines.png)`
-                  }}>Download</a>
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/media/lines.png)`,
+                    backgroundPosition: '44px -1px'
+                  }}>
+                  <span className={styles.arrow}>➔</span>
+                  Download FREE</a>
              <br />
             <a 
-                  style={{marginTop: 10, width: '104px'}}
-                  href="https://canarywarp.bandcamp.com"
-                  target="_blank"
-                  className={styles.submit}>Bandcamp</a>
-            <a 
-                  style={{marginTop: 10, width: '104px', marginLeft: 10}}
+                  style={{marginTop: 10, marginLeft: 0}}
                   href="https://vimeo.com/536401268"
                   target="_blank"
-                  className={styles.submit}>Video</a>
-            
+                  className={styles.submit}>
+                  <span class="audioButton paused"  />
+                  Canary Warp - Mudchute
+            </a>
+            <div className={styles.credits}>
+              Released 2021<br />Upitup Records<br />Canary Warp ®</div>
           </div>
 
 

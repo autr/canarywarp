@@ -88,7 +88,10 @@ $col5: #68c6e5;
 }
 
 .audioGroup {
-
+  background: red;
+  &:hover > * {
+    opacity: 0.7!important;
+  }
   &.playing {
     font-style: italic;
   }
@@ -207,8 +210,16 @@ $col5: #68c6e5;
   padding: 0;
 }
 
+.arrow {
+  transform: rotateZ(90deg)!important;
+  margin-right: 0.8em;
+}
+
   .iconText {
     // font-weight: 200;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.7;
     font-size: 10px;
     // padding: 1px;
     line-height: 10px;
@@ -223,6 +234,7 @@ $col5: #68c6e5;
   min-width: $btn + 4px;
   text-align: center;
   display: inline-block;
+  font-weight: bold;
 }
 
 .warp a, .promo a {
@@ -231,9 +243,31 @@ $col5: #68c6e5;
 }
 
 
-$eyew: ($widthA - 20)/3;
+$eyew: 66.666666px;
 $eyeh: 40px;
 
+
+.images {
+  display: flex;
+  max-width: 220px;
+  align-items: center;
+  justify-content: space-between;
+  strong {
+    font-style: italic;
+    padding-bottom: 0.5em;
+  }
+  a {
+    font-weight: bold;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.credits {
+  padding: 1em 0em;
+  font-style: italic;
+}
 
 .eyeLink {
   width: $eyew;
@@ -407,6 +441,11 @@ $arr: 4px;
 
 .selectDisabled {
   opacity: 0.7;
+  select {  
+    font-style: italic!important;
+    font-size: 0.9em;
+    font-weight: bold
+  }
 }
 
 .select, input[type=text], .selectDisabled {
@@ -462,6 +501,13 @@ $arr: 4px;
   100% {background-color: #68c6e5;}
 }
 
+.submit, button, select {
+  border-radius:3px;
+  font-size: 0.9em;
+  font-weight: bold!important;
+  font-style: italic;
+
+}
 .submit, button {
   display: block;
   width: $widthA;
@@ -492,6 +538,12 @@ $arr: 4px;
     top: 1px;
   }
 
+}
+.soldout {
+  padding: 0.5em 0em;
+  font-weight: 800!important;
+  // font-style: italic;
+  opacity: 0.7;
 }
 .submitWrapper {
   margin-top: 10px;

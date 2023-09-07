@@ -46,3 +46,15 @@ $btn: 16px;
     border: $btn * 0.2 dashed white;
   }
 }
+
+h1 {
+  padding-bottom: 0.1em;
+}
+h4, h1 {
+  border-bottom: 2px solid white;
+  display: inline-block;
+  font-style: italic;
+  width: auto;
+  align-content: flex-start;
+  align-self: flex-start;
+}

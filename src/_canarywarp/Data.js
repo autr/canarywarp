@@ -28,7 +28,7 @@ export default {
     title: "CANARYWARP ®",
     tagline: "Hi-Finance Multimedia Experience.",
     bio: "CANARYWARP® is an ultra-fast trading computer in Cutty Sarks, SE10 that has gained sentience.",
-    record: "Limited edition USB business card with 40 minute video mix (50 copies).",
+    record: "Limited edition executive-grade Aluminium USB Business Card with embossed high-GSM upholstered Presentation Case (50 copies).",
     description: "Limited edition executive-grade Aluminium USB Business Card with embossed Hi-GSM upholstered Presentation Case (50 copies).",
     extra: "Includes 40 minute video",
     usb: 'UPUSB01',
